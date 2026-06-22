@@ -2,10 +2,9 @@
 # AI-Assisted Requirements Engineering Assignment
 
 ## Student Information
-- Name: Lasut Lucia
-- Student ID: 105022410018
-- Class: SWE
-- Course: Software Engineering
+- Name: Lasut Lucia Mela Papuani
+- NIM: 105022410018
+- Class: Software Engineering A
 - Lecturer: Andrew Tanny Liem
 
 ## Project
