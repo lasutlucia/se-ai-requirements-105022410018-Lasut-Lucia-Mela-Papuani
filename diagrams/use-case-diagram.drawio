@@ -1,1 +1,59 @@
 
+<mxfile host="app.diagrams.net" modified="2026-06-22T00:00:00.000Z" agent="Codex" version="24.7.17" type="device">
+  <diagram id="student-task-management-use-case" name="Use Case Diagram">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="system" value="Student Task Management System" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#333333;strokeWidth=2;fontStyle=1;fontSize=18;verticalAlign=top;spacingTop=12;" vertex="1" parent="1">
+          <mxGeometry x="330" y="80" width="700" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="lecturer" value="Lecturer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="105" y="150" width="80" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="student" value="Student" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="105" y="500" width="80" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="admin" value="Administrator" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="330" width="90" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="uc1" value="Create Assignment" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EAF2FF;strokeColor=#2F5597;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="420" y="155" width="245" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="uc2" value="Review Submission List" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EAF2FF;strokeColor=#2F5597;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="425" y="255" width="255" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="uc3" value="Grade and Give Feedback" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EAF2FF;strokeColor=#2F5597;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="420" y="355" width="270" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="uc4" value="View Assignment Dashboard" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EAF7EA;strokeColor=#38761D;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="410" y="510" width="290" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="uc5" value="Submit Assignment" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EAF7EA;strokeColor=#38761D;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="435" y="620" width="245" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="uc6" value="Manage Users" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#B45F06;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="730" y="245" width="230" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="uc7" value="Manage Courses and Enrollments" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#B45F06;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="690" y="350" width="310" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="uc8" value="Configure Assignment Rules" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#B45F06;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="705" y="455" width="285" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="uc9" value="View Assignment Report" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#B45F06;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="720" y="560" width="260" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" style="endArrow=none;html=1;strokeColor=#666666;" edge="1" parent="1" source="lecturer" target="uc1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e2" style="endArrow=none;html=1;strokeColor=#666666;" edge="1" parent="1" source="lecturer" target="uc2"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e3" style="endArrow=none;html=1;strokeColor=#666666;" edge="1" parent="1" source="lecturer" target="uc3"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e4" style="endArrow=none;html=1;strokeColor=#666666;" edge="1" parent="1" source="student" target="uc4"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e5" style="endArrow=none;html=1;strokeColor=#666666;" edge="1" parent="1" source="student" target="uc5"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e6" style="endArrow=none;html=1;strokeColor=#666666;" edge="1" parent="1" source="admin" target="uc6"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e7" style="endArrow=none;html=1;strokeColor=#666666;" edge="1" parent="1" source="admin" target="uc7"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e8" style="endArrow=none;html=1;strokeColor=#666666;" edge="1" parent="1" source="admin" target="uc8"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e9" style="endArrow=none;html=1;strokeColor=#666666;" edge="1" parent="1" source="admin" target="uc9"><mxGeometry relative="1" as="geometry" /></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
